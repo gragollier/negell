@@ -5,7 +5,7 @@
 Negatron is a somewhat esoteric language from my compilers class that is essentially a subset of C except it doesn't support addition or support the use of `true`. Instead of defining the full spec of the language here, I will instead give a few of the important features of Negatron. Negatron is statically typed, statically scoped, has pass by value semantics, and only supports the types of `int` and `bool` for variables (`output` statements accept strings enclosed in double quotes e.g. `"Hello, world"`). Negatron programs start with an invocation of a `main` function. Additionally, Negatron has builtins for reading from and writing to the console thorough `output` and `input` respectively.
 
 ### Example Negatron Program
-Bellow is Hello World in Negatron, for more examples look at the `.nega` files in the [tests](./tests) folder.
+Below is Hello World in Negatron, for more examples look at the `.nega` files in the [tests](./tests) folder.
 ```c
 void main() {
     output "Hello, world!";

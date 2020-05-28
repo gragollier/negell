@@ -5,7 +5,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 cabal build
-negell=$(find dist-newstyle/build -type f -executable -name "negell")
+negell=$(find . -type f -executable -name "negell")
 
 for f in tests/*.nega;
 do
