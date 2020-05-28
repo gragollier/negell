@@ -1,0 +1,13 @@
+void foo(bool a) {
+    if (a) {
+        output 1;
+    }
+    else {
+        output 2;
+    }
+}
+int main() {
+    foo(false);
+    foo(!false);
+    return 0;
+}

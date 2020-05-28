@@ -1,0 +1,46 @@
+int g;
+
+int fac(int a) {
+    if (a <= 1) {
+        return 1;
+    }
+    else {
+        return a * fac(a - 1);
+    }
+}
+
+int test() {
+    output g;
+    g = 2;
+    return g;
+}
+
+int main() {
+    int a;
+    input a;
+    output "You said: ";
+    output a;
+
+    a = 2;
+    a = a - 1;
+
+    output "Factorial of 5 is ";
+    output fac(5);
+
+    output test();
+    output a / 1;
+
+    if (!a) {
+        output 69;
+    } else {
+        output 420;
+    }
+    a = 0;
+    while (a <= 10) {
+        output a;
+        a = a - -1;
+    }
+    output a;
+
+    return 0;
+}

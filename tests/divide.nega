@@ -1,0 +1,5 @@
+int main() {
+    output 10/5;
+    output -18/2;
+    return 0;
+}

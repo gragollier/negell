@@ -1,0 +1,8 @@
+int globalInt;
+bool globalBool;
+int main() {
+    globalInt = 4;
+    globalBool = false;
+    output globalInt;
+    return 0;
+}

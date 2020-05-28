@@ -1,0 +1,4 @@
+int main() {
+    output (false && false);
+    return 0;
+}

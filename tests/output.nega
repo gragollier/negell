@@ -1,0 +1,5 @@
+int main() {
+    output 1;
+    output "hello";
+    output false;
+}

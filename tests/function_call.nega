@@ -1,0 +1,13 @@
+int a() {
+    return 1;
+}
+void b() {
+    return;
+}
+
+int main() {
+    a();
+    b();
+    output a();
+    return 0;
+}
