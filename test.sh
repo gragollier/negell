@@ -1,5 +1,9 @@
 #!/bin/sh
 
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
 cabal build
 negell=$(find dist-newstyle/build -type f -executable -name "negell")
 
@@ -12,6 +16,6 @@ do
     diff -w $testname.out $testname.expected
     returnCode=$?
 
-    [ $returnCode -eq 0 ] && echo "PASSED" || echo "FAILED"
+    [ $returnCode -eq 0 ] && echo "${GREEN}PASSED${NC}" || echo "${RED}FAILED${NC}"
     rm $testname.out
 done
